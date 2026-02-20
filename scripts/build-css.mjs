@@ -15,7 +15,7 @@ Builder
 ██      ██  ██ ██  ██      ██            ██ ██      ████  ██ ██  ██ ██      ██ 
 ██      ██ ██   ██ ███████ ███████       ██  ██████  ██████  ██   ████ ███████ 
 
-CSS ICON LIBRARY               v0.0.1
+CSS ICON LIBRARY               v0.0.2
 ███████████████████████████████████████████████████████████████████████████████
 
 `;
@@ -96,7 +96,7 @@ async function main() {
     // Aquí podrías añadir un check rápido:
     if (!/viewBox=/i.test(svg)) {
       console.warn(
-        `⚠️  ${file} no tiene viewBox. Recomendado añadirlo para escalado correcto.`
+        `⚠️  ${file} no tiene viewBox. Recomendado añadirlo para escalado correcto.`,
       );
     }
 
